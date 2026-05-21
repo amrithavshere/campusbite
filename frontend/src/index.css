@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background: #f6f7fb;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.page-container {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.app-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.app-card:hover {
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #222;
+}
+
+.text-soft {
+  color: #6c757d;
+}
+
+.primary-gradient {
+  background: linear-gradient(135deg, #ff7a18, #ffb347);
+}
+
+.btn-orange {
+  background: #ff7a18;
+  color: white;
+  border: none;
+}
+
+.btn-orange:hover {
+  background: #e86b12;
+  color: white;
+}
+
+.badge-soft {
+  background: #fff3e6;
+  color: #d95f00;
+}
