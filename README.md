@@ -169,3 +169,29 @@ Students and staff can register from the Register page.
 ## Project Status
 
 CampusBite is a functional MERN stack multi-canteen ordering and billing system with role-based access, UPI QR-assisted payment, employee menu/order management, admin employee management, and real-time order-ready notifications.
+
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Canteen Selection
+![Canteen Selection](screenshots/canteens.png)
+
+### Menu and Bill Summary
+![Menu and Bill Summary](screenshots/menu-bill-summary.png)
+
+### My Orders with UPI QR
+![My Orders](screenshots/my-orders-upi.png)
+
+### Employee Orders Dashboard
+![Employee Orders](screenshots/employee-orders.png)
+
+### Manage Menu
+![Manage Menu](screenshots/manage-menu.png)
+
+### Admin Employee Management
+![Admin Employees](screenshots/admin-employees.png)
+
+### Order Ready Notification
+![Order Ready Notification](screenshots/order-ready-notification.png)
