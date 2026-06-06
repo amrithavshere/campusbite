@@ -64,49 +64,6 @@ campusbite/
     └── package.json
 ```
 
-## Setup
-
-### Backend
-
-```bash
-cd backend
-npm install
-```
-
-Create a `.env` file inside `backend`:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-```
-
-Run backend:
-
-```bash
-npm run dev
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend runs on:
-
-```
-http://localhost:5173
-```
-
-Backend runs on:
-
-```
-http://localhost:5000
-```
-
 ## Seed Data
 
 Run these commands from the `backend` folder:
@@ -117,45 +74,6 @@ node seed/updateCanteenQr.js
 node seed/seedEmployees.js
 node seed/seedAdmin.js
 ```
-
-## Default Login Credentials
-> These credentials are for local/demo use only. Change them before deployment.
-
-### Admin
-
-```
-Email: admin@campusbite.com
-Password: admin123
-```
-
-### Main Canteen Employee
-
-```
-Email: maincanteen@example.com
-Password: 123456
-```
-
-### Mini Canteen Employee
-
-```
-Email: minicanteen@example.com
-Password: 123456
-```
-
-Students and staff can register from the Register page.
-
-## Main Pages
-
-| Page | Path |
-|---|---|
-| Login | `/login` |
-| Register | `/register` |
-| Canteens | `/canteens` |
-| Menu | `/menu/:canteenId` |
-| My Orders | `/my-orders` |
-| Employee Orders | `/employee/orders` |
-| Manage Menu | `/employee/menu` |
-| Admin Employees | `/admin/employees` |
 
 ## Security Notes
 
