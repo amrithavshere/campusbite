@@ -99,11 +99,11 @@ function Login() {
           </p>
         </form>
 
-        <div className="card app-card p-3 mt-4">
+        {/* <div className="card app-card p-3 mt-4">
           <p className="fw-semibold mb-2">Test employee login</p>
           <p className="small text-soft mb-1">maincanteen@example.com / 123456</p>
           <p className="small text-soft mb-0">minicanteen@example.com / 123456</p>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
